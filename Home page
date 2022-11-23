@@ -1,0 +1,493 @@
+ <!DOCTYPE html>
+<html>
+<title>✿B10-10-S2-1_Group 4's website✿</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif;
+    }
+
+    body,
+    html {
+        height: 100%;
+        color:  #023020;
+        line-height: 1.8;
+    }
+
+    /* Create a Parallax Effect */
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4
+     {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* First image (Logo. Full height) */
+    .bgimg-1 {
+        background-image: url("C:\Users\User\Downloads/English_Class.png");
+        min-height: 100%;
+    }
+
+    /* Second image (Portfolio) */
+    .bgimg-2 {
+        background-image: url("./green.png");
+        min-height: 100%;
+    }
+
+    /* Third image (Contact) */
+    .bgimg-3 {
+        background-image: url("./yellow.png");
+        min-height: 500%;
+    }
+
+    }
+
+    .w3-wide {
+        letter-spacing: 10px;
+    }
+
+    .w3-hover-opacity {
+        cursor: pointer;
+    }
+
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1600px) {
+
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+            background-attachment: scroll;
+            min-height: 400px;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> GETTING FAMILIAR</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> WHAT'D THEY THINK?</a>
+            <a href="#needofstreaming" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> NEED OF STREAMING</a>
+ <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> MEET THE TEAM</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">GETTING FAMILIAR</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">WHAT'D THEY THINK?</a>
+                        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">MEET THE TEAM</a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href= "#needofstreaming" class="w3-bar-item w3-button" onclick="toggleFunction()">NEED OF STREAMING</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span
+                    class="w3-hide-small">EDUKACHIKA'S</span>TWEBSITE</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">WHAT IS STREAMING?</h3>
+        <p class="w3-center"><em>In a nutshell it's filming in real time. May it be you playing games, chatting with viewers or people, or doing anything!</em></p>
+        <p>The continuous transmission of video data from a server to a client is known as video streaming. Video streaming allows users to interact with their clients. Users may watch videos online without having to download them. Movies, TV shows, YouTube videos, and live streamed material are examples of streaming video content. The continuous transmission of audio and video data from a server to a client is referred to as streaming. Content in video broadcasts is transferred in compressed form via the internet and is viewed in real time by the viewer.
+</p>
+		<br><br>
+		  <h3 class="w3-center">DIFFERENT CONTENT TYPES</h3>
+		<p>There are tons of different streaming content that can be seen in the streaming world. 
+These are:
+<center><BR>Podcasts<BR>
+Webcasts<BR>
+Movies<BR>
+TV Shows<BR>
+Music videos<BR>
+Gaming<BR>
+Q&A’s<BR>
+Interviews<BR>
+Vlogs<BR>
+Tutorials<BR>
+News<BR>
+Events<BR>
+</p></center>
+<br><br>
+		  <h3 class="w3-center">PLATFORMS USED IN STREAMING</h3>
+		  <p>Since live streaming has become more popular amongst the people nowadays, there are tons of streaming platforms that were created that people can use in order to stream their preferred content. These are some of the platforms that can be used for streaming:
+
+</p>
+          <center><BR>YouTube<br>
+Twitch <br>
+Facebook<br>
+Instagram Live<br>
+TikTok Live<br>
+ Kumu<br>
+Bigo Live<BR>
+
+</p></center>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>CHOSEN CONTENT TYPE</b></p><br>
+                <img src="https://group4swebsite444.w3spaces.com/study.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="SIT Logo"
+                    width="100" height="222">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p> Going beyond the conventional method of testing, the group has opted to conduct the study using a mixture of different content types. Mainyl, podcasts, QnAs, and studystreams, but the group will mainly focus on studystreams. The objective of this activity is to determine if all, or any, of those study methods popularly shared by the StudyTok community actually works. The subjects of the study has been assigned different study methods, afterwitch an online test will be conducted, to check  for retention and efficiency. </p></div>
+        </div>
+    <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>CHOSEN STREAMING PLATFORM</b></p><br>
+                <img src="./tik-tok.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="tiktok"
+                    width="100" height="222">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p> As per the topic we have chosen— the team believes that "Tiktok" is the right platform to stream in. In correlation to the research topic of finding out if StudyTok tips and tricks are effective in improving a Junior Highschool students' study habits—TikTok is the most appropriate app in streaming.  </p></div>
+        </div>
+            
+            </div>
+
+            </div>
+	 
+            </div>
+           
+<br>
+<div>
+</div>
+    <!-- Second Parallax Image with Portfolio Text -->
+    <br><div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-grey w3-wide"> WHAT DID THEY THINK?</span>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center">WHAT'D THEY THINK? </h3>
+        <p class="w3-center"><em>Survey responses.<br> Click on the images to make
+                them bigger</em></p><br>
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <img src="./demographic.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="gender of respondents">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./academic_retainer.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Academic attainment">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./age.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Age">
+            </div>
+
+            <div class="w3-col m3">
+      <img src="./studytok_stream.png"  style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="streaming content preffered?"width="500" height="210" >
+            </div>
+        </div>
+<center><p>DATA INTERPRETATION</p></center
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+	<br>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+<p>LOGO PROTOTYPES</p>
+
+<center><div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="./chel_logo.png" style="width:50%">
+  <img class="mySlides" src="./bianca_logo.png" style="width:50%">
+  <img class="mySlides" src="./jared_logo.png" style="width:50%">
+  <img class="mySlides" src="./juan_logo.gif" style="width:100%">
+ <img class="mySlides" src="./venice_logo.jpg" style="width:50%">
+</div></center>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+     
+        <p class="w3-center"><em>Here is a closer look at ShareItTogether's logo prototypes. Click the image to enlargen it, you can also see the creator's of each logo below. </em></p>
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+     <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <img src="./chel_logo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Ester Rachel Yangat's Logo Prototype">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./bianca_logo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Sofia Bianca Hidalgo's Logo Prototype">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./jared_logo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Jared Maccai Tecbobolan's Logo Prototype">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./juan_logo.gif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Juan Gabriel Diaz's Logo Protoype">
+            </div>
+        </div>
+
+<div class="w3-row-padding w3-center w3-section">
+            <div class="w3-col m3">
+                <img src="./venice_logo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Venice Villanueva's Logo Prototype">
+            </div>
+		     <center> <p> <style= "margin-right">The winner of the voting would be Jared!</p> <br><p>Our logo is a microphone with headphones over it, the microphone signifies the voice, the ability to speak and be heard by many. The headphones, on the other hand, represents privacy. The ability to filter what can be heard, the ability to contemplate on ones musings, while still in tune with the world.  <p></center>
+        </div>
+    </div>
+
+
+  <p><em>WHAT'D THEY THINK?</em></p>
+	<p>Survey results</p>
+    <center><img src= "./SITtagline.png"></center>
+	<br> <br> ShareItTogether's name was created by Jared Maccai. He proposed that the channel be named "ShareItTogether", and all of the members agreed to it. It fit the theme and the type of content that we would be posting. Which is a podcast channel, wherein you SHARE your thoughts and opinions, and the fact that we share these TOGETHER, as a group— ShareItTogether really was the right choice. </p>
+	<p><em>TAGLINE</em></p>
+	<p>A brand's motto</p>
+   <center>><img src="./tagline.png"></center><p> Simply said, "Have a seat, and let's S.I.T", SIT being an abbreviation of ShareItTogether, is a simple invitation to all who would like to partake in our discussion. So, what are you waiting for? A seat has already been reserved for you! </p>
+	</p><br>
+
+	<p><em>INTRO VIDEO</em></p>
+	<p>A short introduction or trailer of what to expect. Here is a GIF of our intro video and the link to it.
+        <center><img src ="./sit_intro_vid.gif"></center>
+	<center><p><a href="https://drive.google.com/file/d/10qyJFwK5_MvuxTFzCfXmwBBhMYbql-s4/view?usp=sharing">ShareItTogether intro video with audio</a></p></center>
+	<br> <br> Sofia Bianca was the point person for the creation of the intro video of the channel, the app used to create it, was an app called "Capcut". ShareItTogether's intro video consists of our member's partaking in a discussion, with our logo blocking their face— the reason for that is because we want our audience to be curious of who we are.Our intro video is meant to showcase what the audience should expect from us.
+<br><br> Interesting thing to note, this is not our group's original intro. We had to repeat our intro video, because we believe that it lacked an introduction to our content, and plus it had a very noticable watermark at the bottom right.	Take a look at our original intro</p>
+ <center><img src="./intro.gif" width="500" height="300"></center>
+ <center><p><a href="https://drive.google.com/file/d/1xavSIExCz9GhFi6VjKpl6ngGNtngAGq3/view?usp=sharing">ShareItTogether original intro video with audio</a></p></center>
+<p>Which do you think is better?</p>
+
+  <div class="w3-content w3-container w3-padding-64" id="needofstreaming">
+        <h3 class="w3-center">OUR BUMPY, YET FUN JOURNEY ON THE INTERNET</h3>
+<p>Now, let's tlk about this intrinsic journey. Youtube is a video sharing, content-uploading website used for all sorts of things. May it be for entertainment purposes,information, or just plain old sharing of experiences, YouTube is a free platform. SIT set its foot on Youtube back in March 20, 2022 and left its mark with a video entitled 
+<br>"the world is crumbling, let's talk about it (COVID status, grooming, Ukraine & Russia, BBM or Leni?)". <br> <br>Before it was uploaded, the ShareItTogether team created a storyboard. A storyboard it is like a blue-print for a concept, to better visualize it. Anyway, here's the storyboard.</p> <center?
+<br><center><img src="./SIT_STORYBOARD.gif" style="width:80%"> <br><br><img src="./SIT__STOARDYBOARD_ULIT.png" style="width:80%"> </center><br>
+  <br>
+  <p> After the storyboard, we proceeded to create and record our script. It took the team approximately 8 days to do it, and 2 days worth of editing. Since pasting videos is not really supported here, we will just be showing you the thumbnail. The link to the video is attatched above the thumbnail.</p> 
+   <center><p><a href="https://youtu.be/dQyOlkrxd88">The world is crumbling, let's talk about it.</a></p> </center><br><center><img src="./SHARE_IT_TGT.png"  style="width:80%"></center> <br><p> After the video was uploaded, we created and strategized on how we would market our video, and garner attention. We decided to maximize our social media, since people nowadays use it all the time. Memebers would put it in their Facebook timelines, mydays, and would post it on Instagram.
+
+<br> <br> <p><a href="https://docs.google.com/document/d/1BxJIAdH8Mhl5DiUwMbHhwOK6RXOIlssP4VDIB6mXgkY/edit?usp=drivesdk">For more details on our Marketing Plan, you may reffer to this google document</a></p>
+<div>
+<br><br> <p> In terms of analytics, please reffer to the infographic below:</p><br><img src="./Data_Infographic.png" >
+<br><br> <p>It was a rough path, garnering attention, getting out of our comfort zones, and trying to be entertaining, these are all quite difficult to newbies like us. But, with certainty and a lot of time, we will get the hang of it, and maybe we can be able to reach a hundred subscribers! Only time will tell. The SIT Team follows one rule, and that its to speak your thoughts.<br> Happy to say that we have created, yet another video. Here it is:<br><center><img src="./secondvidthumbnail.png" style="width:80%"><br> <a href="https://youtu.be/WjbP-WfG2sY">3-5 years left on earth??!, coachella,+ how's online school going? </a></p></center> <p>and here's the storyboard for it <center><img src="./SIT_SECOND_VID_STORYBOARD.gif"style="width:80%"></center>
+ <br><br><h3 class="w3-center">TESTIMONIALS</h3><p>ShareItTogether has been a great way for me,personally, to let out my opinion, and be able to gain confidence in speaking what's on my mind. Editing was a whole lot of fun as well! Hearing my members opinions and thoughts on certain issues makes me intrigued, and I'd love to invite other people on our show!</p><p> In SIT, I was able to speak my mind, and tackle very interesting topics, topics that I thought I wasn't confident enough to talk about infront of an audience.</p><p> Having a podcast was a long-time dream of mine. Podcasts have a special place in my heart, and this quarter fulfilled my dreams. Maybe podcasting is my calling? Jokes aside, ShareItTogether was a fun experience, and something that I enjoyed trying. Looking forward to hearing more opinions on issues today!</p><p>I was able to voice out my opinions, with absolutely no judgement, and though the videos may be lengthy, it is worth it to watch.</p><p> I made my family watch our first upload, and they were already fans. They loved that I spoke confidently, and I was able to look happy and my eyes sparkled when I spoke! Thanks SIT<3 </p><h3 class="w3-center">SUMMARY</h3>
+		  <p>SIT was made for a reason. And the reason why it was created is the same reason as to whom it was designed for. For teens, by teens. A symbiotic process of learning and growth. A modern approach to wellbeing, without the need of a paid psychologist. An avenue for self-expression and identity. So, have a seat and let's SIT.</p>
+<img src= "./Parallax.png"  height= "600" width="950"> <p>Before you end your scroll through our website remember this quote. </p>
+<center> <p><em>"Be loud about the things that are important to you" <br>- Karen Walrond</em></p></center>
+<p>If you want to get to know more about the ShareItTogether Team, hover your cursor above the page and click "MEET THE TEAM", or you can just scroll further down. Again, thank you for visiting our website and we're saving a seat for you at the ShareItTogether podcast channel. See ya there!</p>
+</body>
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-dark green w3-wide">MEET THE TEAM</span>
+        </div>
+    </div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: ##476930;
+  color: ##D1DDC1;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: ##FFD3C9;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+
+
+<p>Get to know the brains behind ShareItTogether (SIT). You may contact any of the group's members for any inquiries and concerns. </p>
+ <p class="w3-center"><em>Click the boxes below to reveal the members</em></p>
+<button class="accordion"> <p class="w3-center"><em>FACILITATOR</em></p></button>
+<div class="panel">
+<br>  <center><img src= "./bianca.png"></center><p>Greetings!  I  am  Sofia  Bianca  Hidalgo,  the  facilitator  of  ShareItTogether  (Group  7  of  A-Excellence-9-6).  I  am  14  years  old,  I  am  the  primary  coder  of  the  group. I  compile  all  the  information  that  we  have  in  the  group, and I   always give   my  members  bio-breaks!  </p>
+
+<p>📧Contact me via google chat or email<br> ap.sofiabianca.hidalgo@apecschools.edu.ph</p>
+</div>
+
+<button class="accordion"><p class="w3-center"><em>SCRIBE 1</em></button>
+<div class="panel">
+ <br>  <center><img src= "./rachel.png"></center><p> Hi  everyone!  I  am  Ester  Rachel  Yangat—fun  fact,  our  group  actually  has  3  scribes.  And  I  am  part  of  them! I  am  14  years  of  age  and, I  assist  and  provide  my  utmost  service  to  my  facilitator.   </p>
+<p>📧Contact me via google chat or email<br> ap.esterrachel.yangat@apecschools.edu.ph</p>
+</div>
+
+
+<button class="accordion"><p class="w3-center"><em>SCRIBE 2</em></button>
+<div class="panel">
+  <br>  <center><img src= "./juan.png"></center><p> As  what  Rachel  had mentioned, we  have  3  scribes. I  am  the  2nd  Scribe  of  the  group. Hello  everyone! My  name  is  Juan  Gabriel  Diaz.  Although  I  joined  in  late  to  this  group,  I  am  able  to  keep  up  with  my  members  and  have  fun  while  I'm  at  it! </p>
+<p>📧Contact me via google chat or email<br> ap.juangabriel.diaz@apecschools.edu.ph</p></div>
+
+<button class="accordion"><p class="w3-center"><em>SCRIBE 3</em></button>
+<div class="panel">
+   <br>  <center><img src= "./marco.png"></center><p> I  am  Marco  Sebastian  Mahilum,  and  as  you  can  guess,  yes— I  am  in  fact,  the  3rd  and  final  Scribe.  Anyway,  greetings  everyone!  I   help  especially  when  it  comes  to  answering  checkpoints. </p>
+<p>📧Contact me via google chat or email<br> ap.marcosebastian.mahilum@apecschools.edu.ph</p></div>
+
+<button class="accordion"><p class="w3-center"><em>SPOKESPERSON 1</em></button>
+<div class="panel">
+  <br>  <center><img src= "./jared.png"></center><p> Ahoy  there  everyone!  I  am  Jared  Maccai,  and  I  am  ShareItTogether's  Spokesperson,  I  am  mainly  the  one  that  updates  our  LF  about  our  group's  progress.  You  can  alwaty  rely  on  me!  </p>
+  <p>📧Contact me via google chat or email<br> ap.jaredmaccai.tecbobolan@apecschools.edu.ph</p>
+  </div>
+
+<button class="accordion"><p class="w3-center"><em>SPOKESPERSON 2</em></button>
+<div class="panel">
+   <br>  <center><img src= "./venice.png"></center><p> I'm  Venice  Villanueva, the  2nd  Spokesperson  of  S.I.T  Podcast, I  am  proactive  and  always  offer  help  happily  to  my  members.   </p>
+   <p>📧Contact me via google chat or email<br> ap.venice.villanueva@apecschools.edu.ph</p></div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+    
+    <p class="w3-small">GROUP 4 B10-10-S2-1 </p>
+    <!-- Footer end. -->
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+    
+</body>
+
+</html>
