@@ -1,0 +1,464 @@
+
+
+ <!DOCTYPE html>
+<html>
+<title>✿B10-10-S2-1_Group 4's website✿</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif;
+    }
+ 
+    body,
+    html {
+        height: 100%;
+        color:  #023020;
+        line-height: 1.8;
+    }
+ 
+    /* Create a Parallax Effect */
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4
+     {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+ 
+    /* First image (Logo. Full height) */
+    .bgimg-1 {
+        background-image: url("./English_Class.png");
+        min-height: 100%;
+    }
+ 
+    /* Second image (Portfolio) */
+    .bgimg-2 {
+        background-image: url("./green.png");
+        min-height: 100%;
+    }
+ 
+    /* Third image (Contact) */
+    .bgimg-3 {
+        background-image: url("./yellow.png");
+        min-height: 500%;
+    }
+ 
+    }
+ 
+    .w3-wide {
+        letter-spacing: 10px;
+    }
+ 
+    .w3-hover-opacity {
+        cursor: pointer;
+    }
+ 
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1600px) {
+ 
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+            background-attachment: scroll;
+            min-height: 400px;
+        }
+    }
+</style>
+ 
+<body>
+ 
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> GETTING FAMILIAR</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> WHAT'D THEY THINK?</a>
+            <a href="#needofstreaming" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> NEED OF STREAMING</a>
+ <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> MEET THE TEAM</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+ 
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">GETTING FAMILIAR</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">WHAT'D THEY THINK?</a>
+                        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">MEET THE TEAM</a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href= "#needofstreaming" class="w3-bar-item w3-button" onclick="toggleFunction()">NEED OF STREAMING</a>
+        </div>
+    </div>
+ 
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span
+                    class="w3-hide-small">EDUKACHIKA'S</span>TWEBSITE</span>
+        </div>
+    </div>
+ 
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center"><b>WHAT IS STREAMING?</b></h3>
+        <p class="w3-center"><em>In a nutshell it's filming in real time. May it be you playing games, chatting with viewers or people, or doing anything!</em></p>
+        <p>The continuous transmission of video data from a server to a client is known as video streaming. Video streaming allows users to interact with their clients. Users may watch videos online without having to download them. Movies, TV shows, YouTube videos, and live streamed material are examples of streaming video content. The continuous transmission of audio and video data from a server to a client is referred to as streaming. Content in video broadcasts is transferred in compressed form via the internet and is viewed in real time by the viewer.
+</p>
+        <br><br>
+          <h3 class="w3-center"><i>DIFFERENT CONTENT TYPES</i></h3>
+        <p>There are tons of different streaming content that can be seen in the streaming world.
+These are:
+<center><BR>Podcasts<BR>
+Webcasts<BR>
+Movies<BR>
+TV Shows<BR>
+Music videos<BR>
+Gaming<BR>
+Q&A’s<BR>
+Interviews<BR>
+Vlogs<BR>
+Tutorials<BR>
+News<BR>
+Events<BR>
+</p></center>
+<br><br>
+          <h3 class="w3-center"><i>PLATFORMS USED IN STREAMING</i></h3>
+          <p>Since live streaming has become more popular amongst the people nowadays, there are tons of streaming platforms that were created that people can use in order to stream their preferred content. These are some of the platforms that can be used for streaming:
+ 
+</p>
+          <center><BR>YouTube<br>
+Twitch <br>
+Facebook<br>
+Instagram Live<br>
+TikTok Live<br>
+ Kumu<br>
+Bigo Live<BR>
+ 
+</p></center>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>CHOSEN CONTENT TYPE</b></p><br>
+                <img src="https://group4swebsite444.w3spaces.com/study.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="SIT Logo"
+                    width="100" height="222">
+            </div>
+ 
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p> Going beyond the conventional method of testing, the group has opted to conduct the study using a mixture of different content types. Mainly, podcasts, QnAs, and studystreams, but the group will mainly focus on studystreams. The objective of this activity is to determine if all, or any, of those study methods popularly shared by the StudyTok community actually works. The subjects of the study has been assigned different study methods, after which an online test will be conducted, to check for retention and efficiency. </p></div>
+        </div>
+    <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>CHOSEN STREAMING PLATFORM</b></p><br>
+                <img src="./tik-tok.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="tiktok"
+                    width="100" height="222">
+            </div>
+ 
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p> As per the topic we have chosen— the team believes that "Tiktok" is the right platform to stream in. In correlation to the research topic of finding out if StudyTok tips and tricks are effective in improving a Junior Highschool students' study habits—TikTok is the most appropriate app in streaming.  </p></div>
+        </div>
+           
+            </div>
+ 
+            </div>
+     
+            </div>
+           
+<br>
+<div>
+</div>
+    <!-- Second Parallax Image with Portfolio Text -->
+    <br><div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide"> WHAT DID THEY THINK?</span>
+        </div>
+    </div>
+ 
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center"><b>WHAT'D THEY THINK?</b> </h3>
+        <p class="w3-center"><em>Survey responses.<br> <br>Click on the images to make
+                them bigger</em></p><br>
+ 
+<center><p><i>DEMOGRAPHIC</i></p></center>
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <img src="https://group4swebsite444.w3spaces.com/gender.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="gender of respondents">
+            </div>
+ 
+            <div class="w3-col m3">
+                <img src="https://group4swebsite444.w3spaces.com/grade_level.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Academic attainment/ grade level">
+            </div>
+ 
+            <div class="w3-col m3">
+                <img src="https://group4swebsite444.w3spaces.com/age.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Age demographic">
+            </div>
+<div class="w3-col m3">
+                <img src="./where_do_you_watch_streams.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Streaming platform used by the respondents">
+       
+            </div>
+        </div>
+        <div>
+            <br><br>
+<center><p><i>DATA INTERPRETATION</i></p></center>
+<p>Based on the survey the group has provided, which, aside from asking personal questions, it also asked about the respondents' preferred streaming content type, with focus on our research topic.<br>See the image below as reference</p>
+<br><center><img src= "https://group4swebsite444.w3spaces.com/streaming_content.png" width="750" height="550"></center>
+  <br><br><center><i>BELIEFS AND OPINIONS ON THE TOPIC</i></center>
+  <P>Most respondents (39.4%) (13 respondents) answered live interviews/ QnAs because they would like to get to know a person and their thoughts and opinions on something or someone.
+    <br> Second content type taking lead– Live podcasts. 33.3%  (11 respondents) of the students want to listen to podcasts because most of them want to listen in on the speakers' opinions on something.
+ 
+     <br>Lastly, 27.3% (9 respondents) of students chose to study streams because they would want someone to study with. To keep themselves company.  
+<br>
+<br><br> 48.5% of the respondents were familiar with the term/ sub-community called “StudyTok”.
+<br><br>51.5% of the respondents were not familiar with the term/ sub-community called “StudyTok”.
+<br>
+<br>For those who were familiar with StudyTok; the survey made the respondent's rate how much StudyTokk has helped them improve their study habits (scale of 1 - 5; 1 being the lowest and 5 being the highest)
+<br><br>6.3% responded with 1 (Did not help in improving my study habits at all)
+<br><br>None have responded with 2 (I picked up 1 or 2 study habits)
+<br><br>18.8% responded with 3 (Has somewhat helped in improving my study habits)
+<br><br>43.8% responded with a  4 (Picked up a significant amount of study habits/ ways of improving study habits)
+<br><br>31.3% responded with a 5 (has helped very much in improving my study habits)
+ 
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+ 
+   
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+ 
+<body>
+  <div class="w3-content w3-container w3-padding-64" id="needofstreaming">
+        <h3 class="w3-center"><b>NEEDS OF VIEWERS</b> </h3>
+ <p class="w3-center"><em>A. Chosen Content Type<br> </em></p>
+<center><img src= "./STUDYTOK_DEMO-copy.png" width="750" height="550"></center>
+<p>Based on your audience analysis, choose a streaming category/type that is appropriate to the topic.
+ 
+As per the answers in the survey, JHS students would much prefer a study live stream wherein each member would test out a study habit/ practice popular on TikTok, and using those study methods, each member will study the same topic, and by the end of it, the group will have a quiz regarding the topic studied, in order to see what method is more effective.
+ 
+     We are not, however, closing our doors to other types of streaming content– such as interviews, and just chatting with our audience about  school-related things, etc…
+ 
+     <br><br>Going beyond the conventional method of testing, the group has opted to conduct the study using a mixture of different content types. Mainly, podcasts, QnAs, and studystreams, but the group will mainly focus on study streams. The objective of this activity is to determine if all, or any, of those study methods popularly shared by the StudyTok community, actually work. The subjects of the study has been assigned different study methods, after which an online test will be conducted, to check for retention and efficiency.
+<br>
+<br>
+ 
+ <p class="w3-center"><em>B. Using The Empathize Stage In The Design Thinking Process<br> </em></p>
+ <p>INSTRUCTIONS:<br><br>
+ 1.) Use the techniques in the Empathize stage of the Design Thinking Process to find a need of viewers in the streaming category that you chose.
+<br><br>2.) Maximize the different techniques of the empathize stage.
+<br><br>3.) Use the methods of basic research to identify the reason why people of different ages, statuses, beliefs, etc. watch the streams they watch.
+<br><br>4.) You can perform research, interview people, and even perform surveys, just make sure that it will not require you to go out of the house.
+ 
+<center><b>SHARING EXPERIENCES  AND OPINIONS</b></center><br>
+People, most specifically, Junior High School students watch study sessions, because the thought of someone “studying with you” keeps them company and makes them comfortable. Based on the interviews conducted via gmeet calls with some of the respondents:
+<center><img src = "https://group4swebsite444.w3spaces.com/interview.png"width="750" height="550"></center>
+<br><p>As per one of the respondents: She chose live study sessions because she would want to see if TikTok study tips were truly effective, and she would want us to serve as testers. She finds watching live study sessions fun because it motivates her to study with the live streamers.
+<br><br>In addition, another interviewee had also mentioned that <i>Studystreams bring me comfort—I kinda feel like I'm with friends studying in a cafe. Plus, I really like the fact that your group is gonna be studying differently, and I think it's pretty exciting!</i></p>
+<br><br>
+<center><b>CHARACTERISITCS OF A GOOD STREAM</b></center><br>
+<p>
+   <br> <b>To execute a quality </b>-worthy streaming, a creator needs to exhibit a number of attributes. Here are some characteristics:
+ 
+<br><br><b>Presentable streamer</b> - Making a good first impression always starts with appearance! To increase views, it is essential to do this. One gains a lot of self-confidence and speeds up the development of his career by maintaining a respectable physical appearance and using proper etiquette. It's crucial to keep your content open to all audiences since we must also be conscious that the age range of our visitors may vary.
+ 
+<br><br><b>Ability to create good content</b> - People are more inclined to visit your channel if you your contents  with higher skill. People will be interested in seeing more if you pull off an outstanding shot, performance and ability.
+ 
+<br><br><b>Interesting content</b> - Look for opportunities to make jokes or call attention to anything amusing by being creative and proactive in your quest. Many outstanding streamers have become well-known by making people laugh and being amusing.
+ 
+<br><br><b>Accessible stream</b> - Convenience for our viewers is provided via accessibility. Your channel's follower count can grow as a result of greater exposure. Accessibility will make it simpler for users to search and share live content on your channel. They will need to share your content quickly so that their friends can also see it because it necessitates rapid action.
+ 
+<br><br><b>Regular uploads</b> - Consistency is the best strategy for getting viewers to return to your channel, thus it's advised to create a routine for when and how often you'll upload so that people will know when to watch your live streams.
+ 
+<br><br><b>Engaged with viewers/other streamers</b> - Since many viewers prefer a more personal relationship with you than merely watching the streamer, engagement with viewers is crucial. Try to work with other streamers to increase your chances of being noticed or discovered because both of your viewers and theirs may be interested in you.</p>
+ 
+</body>
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-dark green w3-wide">MEET THE TEAM</span>
+        </div>
+    </div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #F6F3EF;
+  color: ##D1DDC1;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+ 
+.active, .accordion:hover {
+  background-color: #BFC4A3;
+}
+ 
+.accordion:after {
+  content: '\002B';
+  color:dar-green;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+ 
+.active:after {
+  content: "\2212";
+}
+ 
+.panel {
+  padding: 0 18px;
+  background-color: #F6F3EF;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+ 
+ 
+<p>Get to know the brains behind team EdukaChika! You may contact any of the group's members for any inquiries and concerns. </p>
+ <p class="w3-center"><em>Click the boxes below to reveal the members</em></p>
+<button class="accordion"> <p class="w3-center"><em>FACILITATOR</em></p></button>
+<div class="panel">
+<br>  <center><img src= "./hannah.png">
+<center><b>VALENZUELA, HANNAH NICOLE</b></center>
+<p>📧Contact me via google chat or email<br> ap.hannahnicole.valenzuela@apecschools.edu.ph</p>
+</div>
+ 
+<button class="accordion"><p class="w3-center"><em>SCRIBE 1</em></button>
+<div class="panel">
+ <br>  <center><img src= "./chel.png"></center>
+<center><b>YANGAT, ESTER RACHEL</b><br>
+<p>📧Contact me via google chat or email<br> ap.esterrachel.yangat@apecschools.edu.ph</p></center>
+</div>
+ 
+ 
+<button class="accordion"><p class="w3-center"><em>SCRIBE 2</em></button>
+<div class="panel">
+  <br>  <center><img src= "./mari.png"></center><p>
+ <center><b>MAEN, MARICLARE JASTIN</b><br>    
+ <p>📧Contact me via google chat or email<br> ap.mariclarejastin.maen@apecschools.edu.ph</p></center></div>
+ 
+<button class="accordion"><p class="w3-center"><em>SCRIBE 3</em></button>
+<div class="panel">
+   <br>  <center><img src= "./audrey.png"></center><p>
+       <center><b>CRUZ, JENNIFER AUDREY</b><br>
+       <p>📧Contact me via google chat or email<br> ap.ap.jenniferaudrey.cruz@apecschools.edu.ph@apecschools.edu.ph</p></div>
+</center>
+<button class="accordion"><p class="w3-center"><em>SPOKESPERSON 1</em></button>
+<div class="panel">
+  <br>  <center><img src= "./charles.png"></center><p> <center>
+      <b>MARCELO, CHARLES GABRIEL</b><br>
+      <p>📧Contact me via google chat or email<br> ap.charlesgabriel.marcelo@apecschools.edu.ph</p></center>
+  </div>
+ 
+<button class="accordion"><p class="w3-center"><em>SPOKESPERSON 2</em></button>
+<div class="panel">
+   <br>  <center><img src= "./sofia.png"></center><p>
+       <center><b>HIDALGO, SOFIA BIANCA</b><br>
+       <p>📧Contact me via google chat or email<br> ap.sofiabianca.hidalgo@apecschools.edu.ph</p></center></div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+ 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+ 
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-gREEN"><i class="fa fa-arrow-up w3-margin-right"></i>TO THE TOP</a>
+        <div class="w3-xlarge w3-section">
+   
+    <p class="w3-small">GROUP 4 B10-10-S2-1 </p>
+    <!-- Footer end. -->
+    </footer>
+ 
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+ 
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+ 
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+   
+</body>
+ 
+</html>
+
